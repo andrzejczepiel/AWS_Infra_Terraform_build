@@ -8,7 +8,7 @@ The idea is that you can use the same infra build to create different purpose en
 
 In file infra_empty.vars specify your access data to AWS account. 
 
-# NOTE!!! in IAM create programatic account for this usage, or use external secret manager (eg. Vault) to store credentials.
+NOTE!!! in IAM create programatic account for this usage, or use external secret manager (eg. Vault) to store credentials.
 
 
 Please also note mapping for Dev, Uat, Prod environments (change values if needed, number of instances etc)
