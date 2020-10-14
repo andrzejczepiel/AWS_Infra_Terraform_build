@@ -1,5 +1,5 @@
 ##############################################################################
-##### RESORUCE SECTION EC2 and S3 and IAM for S3 access ######################
+##### RESOURCE SECTION EC2 and S3 and IAM for S3 access ######################
 
 resource "aws_instance" "infra_ec2" {
   count = var.instance_count[terraform.workspace]
