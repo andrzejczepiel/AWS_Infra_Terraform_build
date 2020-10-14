@@ -38,8 +38,8 @@ Initialization:
 
 Create a plan with plan file name specific to your environment eg:
   
-    # terraform plan -out merck_infra_dev.ftplan -var-file="infra_empty.vars"
+    # terraform plan -out infra_dev.ftplan -var-file="infra_empty.vars"
   
 Apply plan:
   
-    # terraform apply merck_infra_dev.ftplan
+    # terraform apply infra_dev.ftplan
